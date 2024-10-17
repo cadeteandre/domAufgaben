@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            background-color: rgb(241, 190, 136);
+            width: 350px;
+            height: 350px;
+            padding: 1px 0 0 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        h4 {
+            color: rgb(168, 16, 143);
+        }
+        #button {
+            border: 1px solid red;
+            border-radius: 3px;
+            background-color: pink;
+            color: #fff;
+            padding: 5px;
+        }
+    </style>
+    <title>dom-level-2_6</title>
+</head>
+<body>
+    <h1>DOM Level-2_6</h1>
+
+    <section class="container">
+        <h4>Zufälliges Bild mit TypeScript anzeigen</h4>
+        <button id="button">Click Me</button>
+        <div class="showResults"></div>
+    </section>
+
+    <script type="module" src="./dom-level-2_6.ts"></script>
+</body>
+</html>
